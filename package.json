@@ -1,13 +1,16 @@
 {
-  "name": "autocorrect-api",
+  "name": "swearing-detector",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "wrangler deploy --minify index.ts"
+    "dev": "tsx src/index.ts",
+    "seed:upstash": "tsx seed.ts",
+    "wranger:dev": "wrangler dev src/index",
+    "deploy": "wrangler deploy --minify src/index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Piyush Yadav",
   "license": "ISC",
   "dependencies": {
     "@upstash/vector": "^1.0.7",
