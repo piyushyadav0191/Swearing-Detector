@@ -1,6 +1,0 @@
-name = "autocorrect"
-compatibility_date = "2024-04-16"
-
-[vars]
-VECTOR_URL = "https://knowing-corgi-47054-us1-vector.upstash.io"
-VECTOR_TOKEN = "ABcFMGtub3dpbmctY29yZ2ktNDcwNTQtdXMxYWRtaW5abU01WkRZelptVXRNVGsxT0MwME1XSTBMVGc0TlRVdFpHVmxZV0UxTjJVNU1qVXk="
